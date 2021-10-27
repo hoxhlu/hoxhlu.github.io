@@ -51,8 +51,9 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 130px;
+	transition: all 0.1s;
 }
-.r3:hover {
+.r:hover .r3 {
 	height: 120px;
 }
 .r4 {
@@ -81,8 +82,9 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 240px;
+	transition: all 0.1s;
 }
-.r6:hover {
+.r:hover .r6 {
     height: 120px;
 }
 .r7 {
@@ -118,8 +120,10 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 360px;
+	transition: all 0.1s;
+
 }
-.a3:hover {
+ .a:hover .a3 {
 	height: 120px;
 }
 .a4 {
@@ -138,8 +142,10 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 480px;
+	transition: all 0.1s;
+
 }
-.a5:hover {
+.a:hover .a5 {
 	height: 120px;
 }
 .a6 {
@@ -157,8 +163,10 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 600px;
+	transition: all 0.1s;
+
 }
-.n1:hover {
+.n:hover .n1 {
 	height: 120px;
 }
 .n2 {
@@ -168,8 +176,9 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 735px;
+	transition: all 0.1s;
 }
-.n2:hover {
+.n:hover .n2 {
 	height: 120px;
 }
 .n3 {
@@ -221,8 +230,9 @@ h2 {
 	top: 380px;
 	left: 860px;
 	border-radius: 0px 0px 0px 30px;
+	transition: all 0.1s;
 }
-.g1:hover {
+.g:hover .g1 {
 	height: 120px;
 }
 .g2 {
@@ -258,8 +268,9 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 1015px;
+	transition: all 0.1s;
 }
-.g5:hover {
+.g:hover .g5 {
 	height: 120px;
 }
 .g6 {
@@ -288,14 +299,18 @@ h2 {
 	left: 1013px;
 }
 .g9 {
-	width: 40px;
+	width: 120px;
 	height: 10px;
 	background-color: white;
 	position: absolute;
-	top: 435px;
-	left: 990px;
+	top: 470px;
+	left: 950px;
 	transform: rotate(90deg);
 	border-radius: 10px 0px 0px 10px;
+}
+.e {
+	position: absolute;
+	left: -20px;
 }
 .e1 {
 	width:  190px;
@@ -304,8 +319,9 @@ h2 {
 	position: absolute;
 	top: 380px;
 	left: 1120px;
+	transition: all 0.1s;
 }
-.e1:hover {
+.e:hover .e1 {
 	height: 120px;
 }
 .e2 {
@@ -323,9 +339,10 @@ h2 {
 	position: absolute;
 	top: 360px;
 	left: 1280px;
+	transition: all 0.1s;
 }
-.e3:hover {
-	height: 120px;
+.e:hover .e3 {
+	height: 140px;
 }
 .e4 {
 	width: 40px;
@@ -361,4 +378,80 @@ h2 {
 	top: 230px;
 	left: 1180px;
 	transform: rotate(90deg);
+}
+.s1 {
+	width: 35px;
+	height: 90px;
+	background-color: black;
+	position: absolute;
+	top: 360px;
+	left: 1360px;
+	transition: all 0.1s;
+}
+.s:hover .s1 {
+	height: 120px;
+}
+.s2 {
+	width: 200px;
+	height: 65px;
+	background-color: black;
+	position: absolute;
+	top: 380px;
+	left: 1380px;
+	border-radius: 0px 0px 30px 30px;
+	transition: all 0.1s;
+}
+.s:hover .s2 {
+	height: 90px;
+}
+.s3 {
+	width: 140px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	top: 330px;
+	left: 1490px;
+	transform: rotate(90deg);
+	border-radius: 30px 0px 0px 30px;
+}
+.s4 {
+    width: 40px;
+    height: 220px;
+    background-color: black;
+    position: absolute;
+    top: 190px;
+    left: 1450.4px;
+    transform: rotate(90deg);
+    border-radius: 30px 0px 30px 30px;
+}
+.s5 {
+	width: 30px;
+	height: 140px;
+	background-color: black;
+	position: absolute;
+	top: 180px;
+	left: 1360px;
+	border-radius: 30px 0px 0px 20px;
+}
+.s6 {
+	width: 30px;
+	height: 170px;
+	background-color: black;
+	position: absolute;
+	top: 110px;
+	left: 1460px;
+	transform: rotate(90deg);
+	border-radius: 30px 0px 0px 0px;
+}
+.s7 {
+	width: 30px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	top: 170px;
+	left: 1550px;
+}
+.s {
+	position: absolute;
+	left: -20px;
 }
