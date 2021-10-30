@@ -4,6 +4,9 @@
 	top: -50px;
 	transform: scale(0.8);
 }
+body {
+	background-color: rgb(53,30,0);
+}
 p {
 	width: 500px;
 	position: absolute;
@@ -12,26 +15,27 @@ p {
 	font-family: Helvetica;
 	font-size: 17px;
 	line-height: 23px;
+	color: white;
 }
 h2 {
 	position: absolute;
 	top: 390px;
 	left: 120px;
 	font-family: Helvetica;
-
+	color: white;
 }
 .r8 {
 	width: 50px;
 	height: 25px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180.5px;
 	left: 130px;
 }
 .r1 {
-	width: 50px;
+	width: 55px;
 	height: 10px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181.4px;
 	left: 150px;
@@ -39,15 +43,15 @@ h2 {
 .r2 {
 	width: 30px;
 	height: 200px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
-	top: 181px;
+	top: 195px;
 	left: 150px;
 }
 .r3 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 130px;
@@ -57,18 +61,18 @@ h2 {
 	height: 120px;
 }
 .r4 {
-	width: 80px;
-	height: 80px;
-	background-color: black;
+	width: 95px;
+	height: 95px;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180.5px;
 	left: 160px;
-	border-radius: 40px;
+	border-radius: 50px;
 }
 .r5 {
 	width: 40px;
 	height: 130px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 250px;
 	left: 205px;
@@ -78,7 +82,7 @@ h2 {
 .r6 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 240px;
@@ -88,18 +92,18 @@ h2 {
     height: 120px;
 }
 .r7 {
-	width: 20px;
-	height: 30px;
-	background-color: white;
+	width: 40px;
+	height: 50px;
+	background-color: rgb(53,30,0);
 	position: absolute;
 	top: 200px;
-	left: 180px;
+	left: 185px;
 	border-radius: 0px 50px 50px 0px;
 }
 .a1 {
 	width: 110px;
 	height: 30px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181.4px;
 	left: 410px;
@@ -107,7 +111,7 @@ h2 {
 .a2 {
 	width: 30px;
 	height: 190px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 190px;
 	left: 410px;
@@ -116,7 +120,7 @@ h2 {
 .a3 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 360px;
@@ -129,7 +133,7 @@ h2 {
 .a4 {
 	width: 30px;
 	height: 190px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 190px;
 	left: 490px;
@@ -138,7 +142,7 @@ h2 {
 .a5 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 480px;
@@ -151,7 +155,7 @@ h2 {
 .a6 {
 	width: 90px;
 	height: 20px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 270px;
 	left: 420px;
@@ -159,7 +163,7 @@ h2 {
 .n1 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 600px;
@@ -172,7 +176,7 @@ h2 {
 .n2 {
 	width: 90px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 735px;
@@ -184,7 +188,7 @@ h2 {
 .n3 {
 	width: 30px;
 	height: 200px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181px;
 	left: 625px;
@@ -192,7 +196,7 @@ h2 {
 .n4 {
 	width: 30px;
 	height: 200px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181px;
 	left: 760px;
@@ -200,7 +204,7 @@ h2 {
 .n5 {
 	width: 80px;
 	height: 30px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181.4px;
 	left: 600px;
@@ -208,7 +212,7 @@ h2 {
 .n6 {
 	width: 80px;
 	height: 30px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 181.4px;
 	left: 735px;
@@ -216,7 +220,7 @@ h2 {
 .n7 {
 	width: 30px;
 	height: 170px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 210px;
 	left: 690px;
@@ -225,7 +229,7 @@ h2 {
 .g1 {
 	width: 160px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 860px;
@@ -238,7 +242,7 @@ h2 {
 .g2 {
 	width: 35px;
 	height: 170px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 210px;
 	left: 860px;
@@ -246,7 +250,7 @@ h2 {
 .g3 {
     width: 30px;
     height: 160px;
-    background-color: black;
+    background-color: rgb(145,117,80);
     position: absolute;
     top: 117px;
     left: 925px;
@@ -256,7 +260,7 @@ h2 {
 .g4 {
 	width: 35px;
 	height: 35px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 1005px;
@@ -264,7 +268,7 @@ h2 {
 .g5 {
 	width: 30px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 1015px;
@@ -276,7 +280,7 @@ h2 {
 .g6 {
 	width: 30px;
 	height: 90px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 320px;
 	left: 1015px;
@@ -284,7 +288,7 @@ h2 {
 .g7 {
 	width: 30px;
 	height: 110px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 270px;
 	left: 975px;
@@ -293,7 +297,7 @@ h2 {
 .g8 {
 	width: 30px;
 	height: 60px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180px;
 	left: 1013px;
@@ -301,7 +305,7 @@ h2 {
 .g9 {
 	width: 120px;
 	height: 10px;
-	background-color: white;
+	background-color: rgb(53,30,0);
 	position: absolute;
 	top: 470px;
 	left: 950px;
@@ -315,7 +319,7 @@ h2 {
 .e1 {
 	width:  190px;
 	height: 70px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 1120px;
@@ -327,7 +331,7 @@ h2 {
 .e2 {
 	width: 30px;
 	height: 200px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180px;
 	left: 1120px;
@@ -335,7 +339,7 @@ h2 {
 .e3 {
 	width: 35px;
 	height: 90px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 360px;
 	left: 1280px;
@@ -347,7 +351,7 @@ h2 {
 .e4 {
 	width: 40px;
 	height: 50px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180px;
 	left: 1100px;
@@ -355,7 +359,7 @@ h2 {
 .e5 {
 	width: 30px;
 	height: 160px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 115px;
 	left: 1200px;
@@ -365,7 +369,7 @@ h2 {
 .e6 {
 	width: 30px;
 	height: 60px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 175px;
 	left: 1285px;
@@ -373,7 +377,7 @@ h2 {
 .e7 {
 	width: 30px;
 	height: 110px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 230px;
 	left: 1180px;
@@ -382,7 +386,7 @@ h2 {
 .s1 {
 	width: 35px;
 	height: 90px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 360px;
 	left: 1360px;
@@ -394,7 +398,7 @@ h2 {
 .s2 {
 	width: 200px;
 	height: 65px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 380px;
 	left: 1380px;
@@ -407,7 +411,7 @@ h2 {
 .s3 {
 	width: 140px;
 	height: 40px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 330px;
 	left: 1490px;
@@ -417,7 +421,7 @@ h2 {
 .s4 {
     width: 40px;
     height: 220px;
-    background-color: black;
+    background-color: rgb(145,117,80);
     position: absolute;
     top: 190px;
     left: 1450.4px;
@@ -427,7 +431,7 @@ h2 {
 .s5 {
 	width: 30px;
 	height: 140px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 180px;
 	left: 1360px;
@@ -436,7 +440,7 @@ h2 {
 .s6 {
 	width: 30px;
 	height: 170px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 110px;
 	left: 1460px;
@@ -446,7 +450,7 @@ h2 {
 .s7 {
 	width: 30px;
 	height: 60px;
-	background-color: black;
+	background-color: rgb(145,117,80);
 	position: absolute;
 	top: 170px;
 	left: 1550px;
