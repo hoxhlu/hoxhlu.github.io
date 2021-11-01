@@ -37,7 +37,7 @@ h2 {
 	height: 10px;
 	background-color: rgb(145,117,80);
 	position: absolute;
-	top: 181.4px;
+	top: 181px;
 	left: 150px;
 }
 .r2 {
@@ -65,9 +65,9 @@ h2 {
 	height: 95px;
 	background-color: rgb(145,117,80);
 	position: absolute;
-	top: 180.5px;
+	top: 181px;
 	left: 160px;
-	border-radius: 50px;
+	border-radius: 40px;
 }
 .r5 {
 	width: 40px;
