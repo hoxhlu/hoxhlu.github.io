@@ -33,7 +33,7 @@ h2 {
 	left: 130px;
 }
 .r1 {
-	width: 55px;
+	width: 50px;
 	height: 10px;
 	background-color: rgb(145,117,80);
 	position: absolute;
@@ -67,7 +67,7 @@ h2 {
 	position: absolute;
 	top: 181px;
 	left: 160px;
-	border-radius: 45px;
+	border-radius: 40px;
 }
 .r5 {
 	width: 40px;
