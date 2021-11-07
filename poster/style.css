@@ -1,0 +1,110 @@
+.webbackground {
+	background-image: url("webbackground-01.svg");
+	background-size: cover;
+	background-position: right top;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: 100vh;
+}
+.metlogo {
+	background-image: url("metlogo.svg.png");
+	background-size: cover;
+	background-position: left top;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 10vh;
+	height: 10vh;
+}
+.paperbackground {
+	background-image: url("parchmentbg-01.png");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 202.5vh;
+	height: 100vh;
+}
+.title {
+	font-family: usual, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(255,0,24);
+    font-size: 5vw;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+.title2 {
+	font-family: usual, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(255,0,24);
+    font-size: 5vw;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.date {
+	font-family: usual, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 400px;
+	left: 30px;
+}
+.time {
+	font-family: usual, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 450px;
+	left: 30px;
+}
+.address {
+	font-family: usual, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	position: absolute;
+	top: 500px;
+	left: 30px;
+}
+.admission {
+	font-family: usual, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 535px;
+	left: 30px;
+}
+.website {
+	font-family: usual, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	position: absolute;
+	top: 580px;
+	left: 30px;
+}
+@media (max-width: 390px) {
+	.webbackground {
+		position: absolute;
+		left: 0px;
+		}
+		.metlogo {
+			position: absolute;
+			top: 1250px;
+		}
+		.paperbackground {
+
+		}
+		.title {
+		}
+}
