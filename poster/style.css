@@ -13,8 +13,8 @@
 	background-size: cover;
 	background-position: left top;
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 5vh;
+	left: 2vw;
 	width: 10vh;
 	height: 10vh;
 }
@@ -25,7 +25,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 202.5vh;
+	width: 100vw;
 	height: 100vh;
 }
 .title {
@@ -33,20 +33,20 @@
     font-weight: 800;
     font-style: normal;
     color: rgb(255,0,24);
-    font-size: 5vw;
+    font-size: 70px;
     position: absolute;
-    top: 220px;
-    left: 30px;
+    top: 30vh;
+    left: 2vw;
 }
 .title2 {
 	font-family: usual, sans-serif;
     font-weight: 800;
     font-style: normal;
     color: rgb(255,0,24);
-    font-size: 5vw;
+    font-size: 70px;
     position: absolute;
-    top: 300px;
-    left: 30px;
+    top: 42vh;
+    left: 2vw;
 }
 .date {
 	font-family: usual, sans-serif;
@@ -54,8 +54,8 @@
 	font-style: normal;
 	font-size: 30px;
 	position: absolute;
-	top: 400px;
-	left: 30px;
+	top: 58vh;
+	left: 2vw;
 }
 .time {
 	font-family: usual, sans-serif;
@@ -63,8 +63,8 @@
 	font-style: normal;
 	font-size: 30px;
 	position: absolute;
-	top: 450px;
-	left: 30px;
+	top: 64vh;
+	left: 2vw;
 }
 .address {
 	font-family: usual, sans-serif;
@@ -72,8 +72,8 @@
 	font-style: normal;
 	font-size: 20px;
 	position: absolute;
-	top: 500px;
-	left: 30px;
+	top: 70vh;
+	left: 2vw;
 }
 .admission {
 	font-family: usual, sans-serif;
@@ -81,8 +81,8 @@
 	font-style: normal;
 	font-size: 30px;
 	position: absolute;
-	top: 535px;
-	left: 30px;
+	top: 74vh;
+	left: 2vw;
 }
 .website {
 	font-family: usual, sans-serif;
@@ -90,21 +90,59 @@
 	font-style: normal;
 	font-size: 20px;
 	position: absolute;
-	top: 580px;
-	left: 30px;
+	top: 80vh;
+	left: 2vw;
 }
 @media (max-width: 390px) {
 	.webbackground {
 		position: absolute;
-		left: 0px;
+		left: -15vw;
+		width: 100vw;
+		height: 100vw;
 		}
 		.metlogo {
 			position: absolute;
-			top: 1250px;
-		}
-		.paperbackground {
-
+			top: auto;
+			bottom: 5vw;
+			left: 83vw;
+			width: 6vh;	
+			height: 6vh;
 		}
 		.title {
+			font-size: 55px;
+			position: absolute;
+			top: 45vh;
+			left: 5vw;
+		}
+		.title2 {
+			font-size: 55px;
+			position: absolute;
+			top: 61vh;
+			left: 5vw;
+		}
+		.date {
+			postion: absolute;
+			top: 72vh;
+			left: 5vw;
+		}
+		.time {
+			position: absolute;
+			top: 77vh;
+			left: 5vw;
+		}
+		.address {
+			position: absolute;
+			top: 83vh;
+			left: 5vw;
+		}
+		.admission {
+			position: absolute;
+			top: 87vh;
+			left: 5vw;
+		}
+		.website {
+			position: absolute;
+			top: 92vh;
+			left: 5vw;
 		}
 }
