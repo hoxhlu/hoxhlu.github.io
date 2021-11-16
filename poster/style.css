@@ -32,7 +32,7 @@
 	font-family: usual, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: rgb(255,0,24);
+    color: rgb(229,0,30);
     font-size: 70px;
     position: absolute;
     top: 30vh;
@@ -42,7 +42,7 @@
 	font-family: usual, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: rgb(255,0,24);
+    color: rgb(229,0,30);
     font-size: 70px;
     position: absolute;
     top: 42vh;
@@ -54,7 +54,7 @@
 	font-style: normal;
 	font-size: 30px;
 	position: absolute;
-	top: 58vh;
+	top: 58.5vh;
 	left: 2vw;
 }
 .time {
@@ -81,7 +81,7 @@
 	font-style: normal;
 	font-size: 30px;
 	position: absolute;
-	top: 74vh;
+	top: 78.5vh;
 	left: 2vw;
 }
 .website {
@@ -90,15 +90,15 @@
 	font-style: normal;
 	font-size: 20px;
 	position: absolute;
-	top: 80vh;
+	top: 74.3vh;
 	left: 2vw;
 }
 @media (max-width: 390px) {
 	.webbackground {
 		position: absolute;
-		left: -15vw;
-		width: 100vw;
-		height: 100vw;
+		left: -20vw;
+		width: 115vw;
+		height: 115vw;
 		}
 		.metlogo {
 			position: absolute;
@@ -111,23 +111,23 @@
 		.title {
 			font-size: 55px;
 			position: absolute;
-			top: 45vh;
+			top: 46vh;
 			left: 5vw;
 		}
 		.title2 {
 			font-size: 55px;
 			position: absolute;
-			top: 61vh;
+			top: 61.5vh;
 			left: 5vw;
 		}
 		.date {
 			postion: absolute;
-			top: 72vh;
+			top: 72.5vh;
 			left: 5vw;
 		}
 		.time {
 			position: absolute;
-			top: 77vh;
+			top: 77.5vh;
 			left: 5vw;
 		}
 		.address {
@@ -137,12 +137,12 @@
 		}
 		.admission {
 			position: absolute;
-			top: 87vh;
+			top: 91vh;
 			left: 5vw;
 		}
 		.website {
 			position: absolute;
-			top: 92vh;
+			top: 87vh;
 			left: 5vw;
 		}
 }
