@@ -1,0 +1,100 @@
+.homepage {
+	background-image: url("homepage.jpg");
+	background-size: cover;
+	background-position: left top;
+	position: absolute;
+	top: 0;
+	right: 730px;
+	width: 710px;
+	height: 710px;
+}
+.title {
+	font-family: ff-folk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(214,33,33);
+    font-size: 110px;
+    position: absolute;
+    top: 210px; 
+    left: 400px;
+}
+.title2 {
+    font-family: ff-folk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(252,220,63);
+    font-size: 110px;
+    position: absolute;
+    top: 360px; 
+    left: 400px;
+}
+.bronx {
+	font-family: lores-9-narrow,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 570px; 
+    left: 350px;
+}
+.bronx:hover {
+    color: rgb(214,33,33);
+    transition: 0.5s;
+}
+.manhattan {
+    font-family: lores-9-narrow,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 600px; 
+    left: 520px;
+}
+.manhattan:hover {
+     color: rgb(214,33,33);
+    transition: 0.5s;
+}
+.statenisland {
+    font-family: lores-9-narrow,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 570px; 
+    left: 750px;
+}
+.statenisland:hover {
+     color: rgb(214,33,33);
+    transition: 0.5s;
+}
+.brooklyn {
+    font-family: lores-9-narrow,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 600px; 
+    left: 1030px;
+}
+.brooklyn:hover {
+     color: rgb(214,33,33);
+    transition: 0.5s;
+}
+.queens {
+    font-family: lores-9-narrow,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 570px; 
+    left: 1240px;
+}
+.queens:hover {
+     color: rgb(214,33,33);
+    transition: 0.5s;
+}
