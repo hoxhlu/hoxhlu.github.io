@@ -29,7 +29,7 @@
     left: 400px;
 }
 .bronx {
-	font-family: lores-9-narrow,sans-serif;
+	font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -43,7 +43,7 @@
     transition: 0.5s;
 }
 .manhattan {
-    font-family: lores-9-narrow,sans-serif;
+    font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -57,7 +57,7 @@
     transition: 0.5s;
 }
 .statenisland {
-    font-family: lores-9-narrow,sans-serif;
+    font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -71,7 +71,7 @@
     transition: 0.5s;
 }
 .brooklyn {
-    font-family: lores-9-narrow,sans-serif;
+   font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -85,7 +85,7 @@
     transition: 0.5s;
 }
 .queens {
-    font-family: lores-9-narrow,sans-serif;
+   font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
