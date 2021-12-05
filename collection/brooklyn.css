@@ -1,0 +1,285 @@
+body {
+background-color: rgb(252,220,63);
+	background-size: cover;
+	background-position: left top;
+}
+.background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: 100vh;
+}
+.redarrow {
+	background-image: url("redarrow.png");
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 45px;
+	height: 45px;
+}
+.box4 {
+	position: absolute;
+	top: 10px;
+	left: 1120px;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(214,33,33);
+}
+.box5 {
+	position: absolute;
+	top: 540px;
+	left: 1120px;
+	height: 970px;
+	width: 300px;
+	background-color: rgb(214,33,33);
+}
+.box {
+	width: 500px;
+	height: 200px;
+	background-color: rgb(214,33,33);
+	position: relative;
+	top: 90px;
+	margin-top: 80px;
+	margin-left: 30px;
+	display: inline-block;
+}
+.box2 {
+	width: 470px;
+	height: 35px;
+	background-color: white;
+	position: absolute;
+	top: 615px;
+	left: 53px;
+}
+.box3 {
+	width: 470px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 1186px;
+	left: 53px;
+}
+.box6 {
+	width: 470px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 1178px;
+	left: 587px;
+}
+.box7 {
+	width: 470px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 1460px;
+	left: 53px;
+}
+.box8 {
+	width: 470px;
+	height: 38px;
+	background-color: white;
+	position: absolute;
+	top: 1462px;
+	left: 587px;
+}
+.line {
+	width: 2px;
+	height: 1600px;
+	background-color: black;
+	position: absolute;
+	left: 1100px;
+	top: 0px;
+}
+.brooklyn {
+	font-family: ff-folk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: black;
+    position: absolute;
+    top: 30px; 
+    left: 310px;
+    line-height: 100px;
+}
+.location2 {
+	font-family: effra,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+     top: 320px; 
+    left: 1120px;
+}
+.address1 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 360px;
+    left: 1120px;
+
+}
+.address2 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 390px;
+    left: 1120px;
+
+}
+.address3 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 420px;
+    left: 1120px;
+}
+.funimages {
+	font-family: effra,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 490px; 
+    left: 1120px;
+}
+.brooklynreview1 {
+	background-image: url("brooklyn/brooklynmcds1.png");
+	position: absolute;
+	top: 193px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview2 {
+	background-image: url("brooklyn/brooklynmcds2.png");
+	position: absolute;
+	top: 193px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview3 {
+	background-image: url("brooklyn/brooklynmcds3.png");
+	position: absolute;
+	top: 478px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview4 {
+	background-image: url("brooklyn/brooklynmcds4.png");
+	position: absolute;
+	top: 478px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview5 {
+	background-image: url("brooklyn/brooklynmcds5.png");
+	position: absolute;
+	top: 760px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview6 {
+	background-image: url("brooklyn/brooklynmcds7.png");
+	position: absolute;
+	top: 760px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview7 {
+	background-image: url("brooklyn/brooklynmcds8.png");
+	position: absolute;
+	top: 1046px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview8 {
+	background-image: url("brooklyn/brooklynmcds9.png");
+	position: absolute;
+	top: 1046px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview9 {
+	background-image: url("brooklyn/brooklynmcds10.png");
+	position: absolute;
+	top: 1330px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.brooklynreview10 {
+	background-image: url("brooklyn/brooklynmcds11.png");
+	position: absolute;
+	top: 1330px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.locationpicture {
+	background-image: url("brooklyn/mapofbrooklynmcds.png");
+	position: absolute;
+	top: 20px;
+	left: 1130px;
+	width: 280px;
+	height: 280px;
+}
+.funimageswrapper {
+	background-color: rgb(214,33,33);
+	position: absolute;
+	top: 550px;
+	left: 1130px;
+	height: 930px;
+	width: 293px;
+	overflow-y: scroll
+}
+.funimage1 {
+	background-image: url("brooklyn/photosbrooklynmcds1.png");
+	position: relative;
+	width: 280px;
+	height: 380px;
+}
+.funimage2 {
+	background-image: url("brooklyn/photosbrooklynmcds2.png");
+	position: relative;
+	margin-top: 25px;
+	width: 280px;
+	height: 380px;
+}
+.funimage3 {
+	background-image: url("brooklyn/photosbrooklynmcds4.png");
+	position: relative;
+	margin-top: 25px;
+	width: 280px;
+	height: 380px;
+}
+.funimage4 {
+	background-image: url("brooklyn/photosbrooklynmcds5.png");
+	position: relative;
+	margin-top: 25px;
+	width: 280px;
+	height: 380px;
+}
+.funimage5 {
+	background-image: url("brooklyn/photosbrooklynmcds6.png");
+	position: relative;
+	margin-top: 25px;
+	width: 280px;
+	height: 380px;
+}
