@@ -1,22 +1,38 @@
-.logo {
-	font-family: ff-folk, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(214,33,33);
-    font-size: 40px;
-    position: absolute;
-    top: 20px; 
-    left: 30px;
+body {
+background-color: rgb(252,220,63);
+	background-size: cover;
+	background-position: left top;
 }
-.logo2 {
-	font-family: ff-folk, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(252,220,63);
-    font-size: 40px;
-    position: absolute;
-    top: 20px; 
-    left: 85px;
+.redarrow {
+	background-image: url("redarrow.png");
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 45px;
+	height: 45px;
+}
+.background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: 100vh;
+}
+.box2 {
+	position: absolute;
+	top: 10px;
+	left: 1120px;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(214,33,33);
+}
+.box3 {
+	position: absolute;
+	top: 540px;
+	left: 1120px;
+	height: 970px;
+	width: 300px;
+	background-color: rgb(214,33,33);
 }
 .box {
 	width: 500px;
@@ -33,28 +49,29 @@
 	height: 1600px;
 	background-color: black;
 	position: absolute;
-	left: 1110px;
+	left: 1100px;
 	top: 0px;
 }
 .bronx {
-	font-family: lores-9-narrow,sans-serif;
-    font-weight: 700;
+	font-family: ff-folk, sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 100px;
     color: black;
     position: absolute;
     top: 30px; 
-    left: 350px;
+    left: 370px;
+    line-height: 120px;
 }
 .location1 {
-	font-family: lores-9-narrow,sans-serif;
+	font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
     color: black;
     position: absolute;
     top: 320px; 
-    left: 1130px;
+    left: 1120px;
 }
 .address1 {
 	font-family: bell-centennial-std-address, sans-serif;
@@ -63,7 +80,7 @@
     font-size: 20px;
     position: absolute;
     top: 360px;
-    left: 1130px;
+    left: 1120px;
 
 }
 .address2 {
@@ -73,7 +90,7 @@
     font-size: 20px;
     position: absolute;
     top: 390px;
-    left: 1130px;
+    left: 1120px;
 
 }
 .address3 {
@@ -83,17 +100,17 @@
     font-size: 20px;
     position: absolute;
     top: 420px;
-    left: 1130px;
+    left: 1120px;
 }
 .funimages {
-	font-family: lores-9-narrow,sans-serif;
+	font-family: effra,sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
     color: black;
     position: absolute;
-    top: 505px; 
-    left: 1130px;
+    top: 490px; 
+    left: 1120px;
 }
 .bronxreview1 {
 	background-image: url("bronx/bronxmcds1.png");
@@ -190,6 +207,7 @@
 	height: 950px;
 	width: 293px;
 	overflow-y: scroll;
+	background-color: rgb(214,33,33);;
 }
 .funimage1 {
 	background-image: url("bronx/photosbronx1.png");
