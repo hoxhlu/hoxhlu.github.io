@@ -11,12 +11,12 @@ background-color: rgb(252,220,63);
 	height: 100vh;
 }
 .redarrow {
-	background-image: url("redarrow.png");
+	background-image: url("redarrowdark.png");
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	width: 45px;
-	height: 45px;
+	width: 50px;
+	height: 50px;
 }
 .box4 {
 	position: absolute;
@@ -30,8 +30,8 @@ background-color: rgb(252,220,63);
 	position: absolute;
 	top: 540px;
 	left: 1120px;
-	height: 970px;
-	width: 300px;
+	height: 960px;
+	width: 290px;
 	background-color: rgb(214,33,33);
 }
 .box {
@@ -79,23 +79,13 @@ background-color: rgb(252,220,63);
     left: 250px;
     line-height: 100px;
 }
-.location2 {
-	font-family: effra,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    color: black;
-    position: absolute;
-    top: 320px; 
-    left: 1120px;
-}
 .address1 {
 	font-family: bell-centennial-std-address, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 360px;
+    top: 325px;
     left: 1120px;
 
 }
@@ -105,7 +95,7 @@ background-color: rgb(252,220,63);
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 390px;
+    top: 355px;
     left: 1120px;
 
 }
@@ -115,7 +105,7 @@ background-color: rgb(252,220,63);
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 420px;
+    top: 385px;
     left: 1120px;
 }
 .funimages {
@@ -218,44 +208,45 @@ background-color: rgb(252,220,63);
 }
 .funimageswrapper {
 	position: absolute;
-	top: 550px;
+	top: 553px;
 	left: 1130px;
 	height: 930px;
-	width: 293px;
+	width: 274px;
 	overflow-y: scroll;
 	background-color: rgb(214,33,33);
+	overflow-x: hidden;
 }
 .funimage1 {
 	background-image: url("manhattan/photomanhattanmcds1.png");
 	position: relative;
-	width: 280px;
-	height: 380px;
+	width: 250px;
+	height: 350px;
 }
 .funimage2 {
 	background-image: url("manhattan/photomanhattanmcds2.png");
 	position: relative;
 	margin-top: 25px;
-	width: 280px;
-	height: 380px;
+	width: 250px;
+	height: 350px;
 }
 .funimage3 {
 	background-image: url("manhattan/photomanhattanmcds3.png");
 	position: relative;
 	margin-top: 25px;
-	width: 280px;
-	height: 380px;
+	width: 250px;
+	height: 350px;
 }
 .funimage4 {
 	background-image: url("manhattan/photomanhattanmcds4.png");
 	position: relative;
 	margin-top: 25px;
-	width: 280px;
-	height: 380px;
+	width: 250px;
+	height: 350px;
 }
 .funimage5 {
 	background-image: url("manhattan/photomanhattanmcds5.png");
 	position: relative;
 	margin-top: 25px;
-	width: 280px;
-	height: 380px;
+	width: 250px;
+	height: 350px;
 }
