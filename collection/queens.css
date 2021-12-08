@@ -1,0 +1,267 @@
+body {
+background-color: rgb(252,220,63);
+	background-size: cover;
+	background-position: left top;
+}
+.background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: 100vh;
+}
+.redarrow {
+	background-image: url("redarrowdark.png");
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 50px;
+	height: 50px;
+}
+.box4 {
+	position: absolute;
+	top: 10px;
+	left: 1120px;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(214,33,33);
+}
+.box5 {
+	position: absolute;
+	top: 540px;
+	left: 1120px;
+	height: 970px;
+	width: 290px;
+	background-color: rgb(214,33,33);
+}
+.box {
+	width: 500px;
+	height: 200px;
+	background-color: rgb(214,33,33);
+	position: relative;
+	top: 90px;
+	margin-top: 80px;
+	margin-left: 30px;
+	display: inline-block;
+}
+.box2 {
+	width: 470px;
+	height: 25px;
+	background-color: white;
+	position: absolute;
+	top: 340px;
+	left: 587px;
+}
+.box3 {
+	width: 470px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 900px;
+	left: 587px;
+}
+.box7 {
+	width: 470px;
+	height: 48px;
+	background-color: white;
+	position: absolute;
+	top: 1453px;
+	left: 53px;
+}
+.box8 {
+	width: 470px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 1470px;
+	left: 587px;
+}
+.line {
+	width: 2px;
+	height: 1600px;
+	background-color: black;
+	position: absolute;
+	left: 1100px;
+	top: 0px;
+}
+.queens {
+	font-family: ff-folk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: black;
+    position: absolute;
+    top: 30px; 
+    left: 310px;
+    line-height: 100px;
+}
+.address1 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 325px;
+    left: 1120px;
+
+}
+.address2 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 355px;
+    left: 1120px;
+
+}
+.address3 {
+	font-family: bell-centennial-std-address, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 385px;
+    left: 1120px;
+}
+.funimages {
+	font-family: effra,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 490px; 
+    left: 1120px;
+}
+.queensreview1 {
+	background-image: url("queens/queensmcds1.png");
+	position: absolute;
+	top: 193px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview2 {
+	background-image: url("queens/queensmcds2.png");
+	position: absolute;
+	top: 193px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview3 {
+	background-image: url("queens/queensmcds3.png");
+	position: absolute;
+	top: 478px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview4 {
+	background-image: url("queens/queensmcds4.png");
+	position: absolute;
+	top: 478px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview5 {
+	background-image: url("queens/queensmcds5.png");
+	position: absolute;
+	top: 760px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview6 {
+	background-image: url("queens/queensmcds6.png");
+	position: absolute;
+	top: 760px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview7 {
+	background-image: url("queens/queensmcds7.png");
+	position: absolute;
+	top: 1046px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview8 {
+	background-image: url("queens/queensmcds8.png");
+	position: absolute;
+	top: 1046px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview9 {
+	background-image: url("queens/queensmcds9.png");
+	position: absolute;
+	top: 1330px;
+	left: 53px;
+	width: 470px;
+	height: 170px;
+}
+.queensreview10 {
+	background-image: url("queens/queensmcds10.png");
+	position: absolute;
+	top: 1330px;
+	left: 587px;
+	width: 470px;
+	height: 170px;
+}
+.locationpicture {
+	background-image: url("queens/mapofqueensmcds.png");
+	position: absolute;
+	top: 20px;
+	left: 1130px;
+	width: 280px;
+	height: 280px;
+}
+.funimageswrapper {
+	background-color: rgb(214,33,33);
+	position: absolute;
+	top: 560px;
+	left: 1130px;
+	height: 930px;
+	width: 274px;
+	overflow-y: scroll
+}
+.funimage1 {
+	background-image: url("queens/photosqueensmcds1.png");
+	position: relative;
+	width: 250px;
+	height: 350px;
+}
+.funimage2 {
+	background-image: url("queens/photosqueensmcds2.png");
+	position: relative;
+	margin-top: 25px;
+	width: 250px;
+	height: 350px;
+}
+.funimage3 {
+	background-image: url("queens/photosqueensmcds3.png");
+	position: relative;
+	margin-top: 25px;
+	width: 250px;
+	height: 350px;
+}
+.funimage4 {
+	background-image: url("queens/photosqueensmcds4.png");
+	position: relative;
+	margin-top: 25px;
+	width: 250px;
+	height: 350px;
+}
+.funimage5 {
+	background-image: url("queens/photosqueensmcds5.png");
+	position: relative;
+	margin-top: 25px;
+	width: 250px;
+	height: 350px;
+}
