@@ -11,12 +11,12 @@ background-color: rgb(252,220,63);
 	height: 100vh;
 }
 .redarrow {
-	background-image: url("redarrowdark.png");
+	background-image: url("thisredarrow-04.png");
 	position: absolute;
-	top: 30px;
+	top: 45px;
 	left: 30px;
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	height: 90px;
 }
 .box4 {
 	position: absolute;
@@ -111,7 +111,7 @@ background-color: rgb(252,220,63);
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 355px;
+    top: 350px;
     left: 1120px;
 
 }
@@ -121,7 +121,7 @@ background-color: rgb(252,220,63);
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 385px;
+    top: 375px;
     left: 1120px;
 }
 .funimages {
