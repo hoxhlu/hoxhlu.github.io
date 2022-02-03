@@ -1,0 +1,50 @@
+.ball {
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: rgb(220,20,70);
+	animation-name: myAnim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.box1 {
+    position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 30px;
+	height: 200px;
+	background-color: yellow;
+	animation-name: myAnim2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.box2 {
+	position: absolute;
+	top: 200px;
+	left: 1300px;
+	width: 30px;
+	height: 200px;
+	background-color: yellow;
+	animation-name: myAnim3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes myAnim2 {
+0% { top: 400px;}
+	50% {top: 100px;}  
+	100% { top: 400px;}
+}
+@keyframes myAnim3 {
+0% { top: 400px;}
+	50% {top: 100px;}  
+	100% { top: 400px;}
+}
+
+@keyframes myAnim {
+	0% { top: 400px; left: 100px}
+	50% {top: 100px; left: 1200px } 
+	100%{ top: 400px; left: 100px}
+}
