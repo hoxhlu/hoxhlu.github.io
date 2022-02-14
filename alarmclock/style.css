@@ -1,0 +1,271 @@
+
+.hour {
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+  animation-timing-function: steps(1);
+}
+.hour2 {
+  position: absolute;
+  top: 3vw;
+  left: 26vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+  animation-timing-function: steps(1);
+}
+.hour3 {
+  position: absolute;
+  top: 3vw;
+  left: 50vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+  animation-timing-function: steps(1);
+}
+.hour4 {
+  position: absolute;
+  top: 3vw;
+  left: 70vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+  animation-timing-function: steps(1);
+}
+
+.minute {
+  position: absolute;
+  top: 19vw;
+  left: 3vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.minute2 {
+  position: absolute;
+  top: 19vw;
+  left: 26vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.minute3 {
+  position: absolute;
+  top: 19vw;
+  left: 50vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.minute4 {
+  position: absolute;
+  top: 19vw;
+  left: 70vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.second {
+  position: absolute;
+  top: 33vw;
+  left: 3vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.second2 {
+  position: absolute;
+  top: 33vw;
+  left: 26vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.second3 {
+  position: absolute;
+  top: 33vw;
+  left: 50vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.second4 {
+  position: absolute;
+  top: 33vw;
+  left: 70vw;
+  width: 12vw;
+  height: 12vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(peoplerunning-01.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+.finishline {
+ background-image: url(new2finishline-11.svg);
+ position: absolute;
+ top: 0vw;
+ left: 78vw;
+ width: 60vw;
+ height: 37vw;
+ background-repeat: no-repeat;
+ transform: rotate(-90deg);
+}
+.finish {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+  position: absolute;
+  top: 44vh;
+  left: 78vw;
+  transform: rotate(90deg);
+  letter-spacing: 8px;
+}
+@keyframes swapImage {
+  0% {
+    background-image: url(peoplerunning-01.svg);
+  }
+  10% {
+    background-image: url(peoplerunning-02.svg);
+  }
+  20% {
+    background-image: url(peoplerunning-03.svg);
+  }  
+  30% {
+    background-image: url(peoplerunning-04.svg);
+  }  
+  40% {
+    background-image: url(newpeoplerunning-05.svg);
+  }  
+  50% {
+    background-image: url(peoplerunning-02.svg);
+  }
+  60% {
+    background-image: url(peoplerunning-03.svg);
+  }
+  70% {
+    background-image: url(peoplerunning-04.svg);
+  }  
+  80% {
+    background-image: url(newpeoplerunning-05.svg);
+  }  
+  90% {
+    background-image: url(peoplerunning-02.svg);
+  }  
+  100% {
+    background-image: url(peoplerunning-01.svg);
+  }    
+}
