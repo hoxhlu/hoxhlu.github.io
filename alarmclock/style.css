@@ -1,3 +1,7 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 .bigmove.alarm {
 position: absolute;
   top: 0vw;
@@ -21,7 +25,7 @@ position: absolute;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: swapImage;
-  animation-duration: 60s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;  
   animation-timing-function: steps(1);
 }
@@ -39,7 +43,7 @@ position: absolute;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: anotherimage;
-  animation-duration: 60s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;  
   animation-timing-function: steps(1);
 }
@@ -57,7 +61,7 @@ position: absolute;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: someimage;
-  animation-duration: 60s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;  
   animation-timing-function: steps(1);
 }
@@ -75,7 +79,7 @@ position: absolute;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: whatimage;
-  animation-duration: 60s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;  
   animation-timing-function: steps(1);
 }
@@ -97,6 +101,7 @@ position: absolute;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(1);
+  
 }
 .minute2 {
   position: absolute;
@@ -242,7 +247,16 @@ position: absolute;
   letter-spacing: 8px;
 }
 .finish.alarm {
-  color: rgb(220,20,60);
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.minute.alarm {
+  animation-name: swapImage,oneguyfalls;
+  animation-timing-function: steps(1),linear;
+  animation-iteration-count: infinite,1;
+  animation-fill-mode: forwards,forwards;
+  animation-duration: 6s,6s;
 }
 @keyframes swapImage {
   0% {
@@ -330,5 +344,38 @@ position: absolute;
   }
   100% {
     left: 100vw;
+  }
+}
+@keyframes colorchange {
+  0% {
+    color: black;
+  }
+  20% {
+    color: rgb(220,20,60);
+  }
+  40% {
+    color: black;
+  }  
+  60% {
+    color: rgb(220,20,60);
+  }  
+  80% {
+    color: black;
+  }  
+  100% {
+    color: rgb(220,20,60);
+  }
+}
+@keyframes oneguyfalls {
+  0% {
+    left: 0vw;
+    
+  } 
+  97% {
+    left: 70vw;
+    
+  }  
+  100% {
+    left: 70vw;
   }
 }
