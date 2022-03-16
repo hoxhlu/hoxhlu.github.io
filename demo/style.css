@@ -106,7 +106,7 @@ body {
 .hero.doing-action {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
+  animation-duration: 900ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
