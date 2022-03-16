@@ -47,7 +47,7 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: rgb(243, 128, 25);
+  background-color: rgb(247, 103, 40);
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -114,7 +114,7 @@ body {
   position: absolute;
   width: 300px;
   height: 300px;
-  bottom: 200px;
+  bottom: 100px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
@@ -127,6 +127,49 @@ body {
 .npc.was-interacted {
   opacity: 0;
   transition: opacity 400ms linear;
+}
+.collectable {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255,255,0);
+  border-radius: 50%;
+  position: absolute;
+}
+.collectable-0 {
+bottom: 550px;
+left: 420px;
+}
+.collectable-1 {
+bottom: 450px;
+left: 320px;
+}
+.collectable-2 {
+bottom: 340px;
+left: 250px;
+}
+.collectable-3 {
+bottom: 260px;
+left: 380px;
+}
+.collectable-4 {
+bottom: 380px;
+left: 460px;
+}
+.collectable-5 {
+bottom: 480px;
+left: 530px;
+}
+.collectable-6 {
+bottom: 300px;
+left: 580px;
+}
+.collectable-7 {
+bottom: 400px;
+left: 650px;
+}
+.collectable-8 {
+bottom: 200px;
+left: 500px;
 }
 
 .preload-image {
