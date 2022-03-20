@@ -26,8 +26,9 @@ body {
   line-height: 30px;
   font-size: 16px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+ font-family: usual,sans-serif;
+font-weight: 400;
+font-style: normal;
   color: white;
   opacity: 0;
   z-index: 10;
@@ -43,14 +44,15 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(247, 103, 40);
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+ background-image: url("./img/bubble.png");
+ background-size: contain;
+  color: rgb(30,156,215);
+ font-family: usual,sans-serif;
+font-weight: 700;
+font-style: normal;
   font-size: 22px;
   text-align: center;
 }
@@ -114,26 +116,31 @@ body {
   position: absolute;
   width: 300px;
   height: 300px;
-  bottom: 100px;
+  bottom: 200px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  background-image: url("./img/sharkangry.png");
+    transition: right 1800ms linear;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 1;  
+    animation-fill-mode: forwards;
+    animation-duration: 800ms;
+    right: -200px !important;
 }
 .collectable {
-  width: 30px;
-  height: 30px;
-  background-color: rgb(255,255,0);
-  border-radius: 50%;
+  width: 80px;
+  height: 80px;
   position: absolute;
+  background-image: url("./img/coin.png");
+  background-size: contain;
 }
 .collectable-0 {
 bottom: 550px;
