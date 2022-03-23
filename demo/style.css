@@ -139,44 +139,63 @@ font-style: normal;
   width: 80px;
   height: 80px;
   position: absolute;
-  background-image: url("./img/coin.png");
-  background-size: contain;
+  background-image: url("./img/goldcoins.png");
+   background-position: 0 center;
+  background-size: cover;
+   animation-name: spriteSheet;
+  animation-duration: 1600ms;
+  animation-timing-function: steps(2);
+   animation-iteration-count: infinite;
 }
 .collectable-0 {
-bottom: 550px;
-left: 420px;
+bottom: 570px;
+left: 250px;
+animation-delay: 0;
 }
 .collectable-1 {
-bottom: 450px;
-left: 320px;
+bottom: 420px;
+left: 220px;
+animation-delay: 100ms;
 }
 .collectable-2 {
-bottom: 340px;
-left: 250px;
+bottom: 260px;
+left: 200px;
+animation-delay: 200ms;
 }
 .collectable-3 {
-bottom: 260px;
+bottom: 330px;
 left: 380px;
+animation-delay: 50ms;
 }
 .collectable-4 {
-bottom: 380px;
-left: 460px;
+bottom: 480px;
+left: 380px;
+animation-delay: 120ms;
 }
 .collectable-5 {
-bottom: 480px;
+bottom: 530px;
 left: 530px;
+animation-delay: 180ms;
 }
 .collectable-6 {
-bottom: 300px;
-left: 580px;
+bottom: 380px;
+left: 530px;
+animation-delay: 210ms;
 }
 .collectable-7 {
-bottom: 400px;
-left: 650px;
+bottom: 240px;
+left: 515px;
+animation-delay: 280ms;
 }
 .collectable-8 {
-bottom: 200px;
-left: 500px;
+bottom: 480px;
+left: 680px;
+animation-delay: 150ms;
+}
+.collectable-9 {
+  bottom: 320px;
+left: 680px;
+animation-delay: 80ms;
 }
 
 .preload-image {
